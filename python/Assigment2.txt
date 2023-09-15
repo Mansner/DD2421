@@ -1,0 +1,13 @@
+Uniform (maximerar entropi) : 1/4 , 1/4 , 1/4 , 1/4
+Entropy = 2
+
+Icke uniform: 2/4, 1/4, 0.5/4 , 0.5/4
+Entroyp = 1.75
+
+Icke unform viktad: 0.5/4 , 0.5/4 , 0.5/4 , 2.5/4
+Entropy = even lower
+
+Entropi mäter oförutsägbarheten i data.
+Hög entropi = mindre förutsgäbar
+Låg entropi = mer förutsägbar
+

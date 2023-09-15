@@ -1,0 +1,15 @@
+MONK1:
+positiv om a1 = a2 eller om a5=1
+Ganska enkel regel med ett OR condition
+
+MONK2:
+positiv om (alla a) ai=1
+Mer komplex än MONK1 eftersom man måste testa alla a
+
+MONK3:
+positiv om a5 = 1 och a4 = 1 ELLER a5 inte är 4 och a2 = 3
+Mer komplex för via har AND + OR, vi har också = + !=
+Har också 5% mer noise
+
+SVAR: MONK3 pågrund av komplexa förhållanden och extra noise. Modellen riskerar därmed att bli övertränad.
+
