@@ -36,8 +36,6 @@ for train_data, test_data in datasets:
                     best_tree = pruned_tree
                     best_score = score
 
-            # Optionally, draw the best pruned tree
-            # drawTree(best_tree)  # Comment/uncomment this line to enable/disable tree drawing
 
             # Evaluate the test error
             test_error = 1 - d.check(best_tree, test_data)
