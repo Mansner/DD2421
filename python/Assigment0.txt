@@ -11,5 +11,5 @@ positiv om a5 = 1 och a4 = 1 ELLER a5 inte är 4 och a2 = 3
 Mer komplex för via har AND + OR, vi har också = + !=
 Har också 5% mer noise
 
-SVAR: MONK3 pågrund av komplexa förhållanden och extra noise. Modellen riskerar därmed att bli övertränad.
+SVAR: MONK3 pågrund av komplexa förhållanden och extra noise. Modellen riskerar därmed att bli overfitted.
 

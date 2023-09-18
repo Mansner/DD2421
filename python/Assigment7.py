@@ -52,6 +52,7 @@ monk1_stds = []
 monk3_means = []
 monk3_stds = []
 
+# Extract relevant mean and std for each
 for train_data, test_data in datasets:
     means = []
     stds = []
@@ -60,6 +61,7 @@ for train_data, test_data in datasets:
         means.append(mean)
         stds.append(std)
 
+    # sSplit into values for respective dataset
     if train_data == m.monk1:
         monk1_means = means
         monk1_stds = stds
