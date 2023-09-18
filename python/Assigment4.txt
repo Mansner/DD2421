@@ -1,4 +1,4 @@
-- Generellt så är entropin minimerade enligt formeln för information gain
+- Generellt så är entropin minimerad när IG är maximerad enligt formeln för information gain
 IG = H(S) - viktade summan av entropierna i H(Sk) --> entropin i subsetet efter spliten är som minst för vi väljer högst information gain
 - Målet med ett besulusträd är att klassifiera så träffsäkert som möjligt, genom att välja att splitta vid det atributet
 som maximerar information gain gör vi subsetet enklare att klassfiera vilket för oss snabbare till målet, att ta ett beslut.

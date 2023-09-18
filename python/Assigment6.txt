@@ -1,0 +1,13 @@
+Pruning is the process of removing portions of the tree that do not provide power to predict instances.
+In the context of bias-variance tradeoff:
+
+Bias: A model with high bias oversimplifies the model, ignoring relevant relations between features and target outputs.
+A fully expanded tree is likely to have low bias because it tries to fit the data closely.
+
+Variance: A model with high variance is too sensitive to fluctuations in the training set.
+Fully grown trees are likely to be highly sensitive to the training data, capturing noise and making them less generalized to unseen data.
+
+Pruning helps in reducing the complexity of the tree, thereby increasing the bias but reducing the variance.
+It aims to achieve a balance between underfitting and overfitting,
+thus improving the overall performance of the model on unseen data.
+
